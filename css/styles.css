@@ -4,45 +4,63 @@ body {
   color: #434455;
 }
 
+/* Reset */
+
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
 
 a {
   text-decoration: none;
 }
 
-button {
-  cursor: pointer;
-}
+/* Common */
 
-.logo {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-}
-
-.logo-text {
-  color: #2e2f42;
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 /* Header */
 
 .header {
   background-color: #fff;
+  border-bottom: 1px solid #e7e9fc;
 }
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
 .header-nav {
+  display: flex;
+  align-items: center;
 }
 .header-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 .header-nav-item {
 }
 .header-link {
+  padding: 24px 0;
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -55,10 +73,16 @@ button {
 }
 .address {
   font-style: normal;
+  margin-left: auto;
 }
 .address-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 .address-item {
+  display: block;
+  padding: 24px 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -66,11 +90,34 @@ button {
   color: #434455;
 }
 .address-item:hover,
-.address-item:focus {
+.address-item-focus {
   color: #404bbf;
 }
 
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logo-header {
+  padding: 24px 0;
+  margin-right: 76px;
+}
+
+.logo-text {
+  color: #2e2f42;
+}
+
 /* Hero */
+
+button {
+  cursor: pointer;
+}
 
 .business {
   background-color: #2e2f42;
