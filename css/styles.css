@@ -27,6 +27,10 @@ a {
   text-decoration: none;
 }
 
+img {
+  display: block;
+}
+
 /* Common */
 
 .container {
@@ -121,6 +125,7 @@ button {
 
 .business {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 .business-titel {
   font-weight: 700;
@@ -129,8 +134,14 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 496px;
 }
 .business-btn {
+  min-width: 169px;
+  height: 56px;
+  display: block;
+  border: none;
+  border-radius: 4px;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -255,6 +266,7 @@ button {
 
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .footer-text {
   font-weight: 400;
@@ -262,6 +274,11 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+.logo-footer {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .logo-text-footer {
