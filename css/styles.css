@@ -152,7 +152,11 @@ button {
 .advantages-h {
 }
 .advantages-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
+
 .advantages-list-item {
 }
 .advantages-titel {
@@ -185,6 +189,9 @@ button {
   text-transform: capitalize;
 }
 .team-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
 .team-list-iteam {
   background-color: #fff;
@@ -222,6 +229,8 @@ button {
   text-transform: capitalize;
 }
 .portfolio-list {
+  display: flex;
+  align-items: center;
 }
 .portfolio-list-item {
 }
